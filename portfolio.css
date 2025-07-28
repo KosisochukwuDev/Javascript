@@ -1,0 +1,100 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(238, 231, 235);
+}
+h1{
+    text-align: center;
+    font-size: 45px;
+    transition: font-family 0.3s ease;
+}
+#intro{
+    width: 500px;
+    word-wrap: break-word;
+    text-align: center;
+}
+#about{
+    display: flex;
+    justify-content: center, space-between;
+    align-items: center;
+    gap: 150px;
+}
+img{
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+}
+a{
+    text-decoration: none;
+    color: black;
+    padding: 10px; 
+}
+a:hover{
+    color: brown;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    top: 0;
+}
+.navbar{
+    background-color: pink;
+    width: 175px;
+    position: fixed;
+    height: 100%;
+}
+.body{
+    margin: 75px;
+    margin-left: 120px;
+}
+input{
+    width: 500px;
+    height: 30px;
+    justify-content: center;
+}
+footer{
+    align-self: center;
+}
+hr{
+    width: 85%;
+}
+th, td{
+    border-collapse: separate;
+    border: 0px solid black;
+}
+.col{
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(221, 226, 226);
+}
+.skill-col{
+    border: transparent;
+    padding: 15px;
+}
+#html{
+    width: 100%;
+}
+#css{
+    width: 100%;
+}
+#java{
+    width: 50%;
+}
+#python{
+    width: 75%;
+}
+#rust{
+    width: 20%;
+}
+button{
+    width: 80px;
+    height: 40px;
+}
